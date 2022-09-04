@@ -1,0 +1,131 @@
+/* 
+Martina Illustrations by Anna A. (https://icons8.com/illustrations/author/eEbrZFlkyZbD)
+from https://icons8.com/illustrations
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*text-align: center;*/
+  color: #2c3e50;
+  //   background-color: #f1f4f6;
+  min-height: 100vh;
+  background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    rgba(85, 88, 218, 1) 0%,
+    rgba(95, 209, 249, 1) 100.2%
+  );
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all ease-in-out 0.3s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.card-items {
+  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  z-index: 1;
+  --box-shadow-color: rgba(206, 178, 252, 0.48);
+  &:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+      0 24px 46px var(--box-shadow-color);
+  }
+}
+.index-card {
+  z-index: 1;
+}
+
+.card-info {
+  width: 75%;
+}
+.copyright {
+  z-index: 2;
+  position: relative;
+  margin-bottom: 80px;
+  color: #2c3e50;
+}
+
+.svg-waves {
+  width: 100%;
+  background-size: cover;
+  padding: 0; /* reset */
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: 0;
+}
+
+#roda-conversa {
+  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+
+#navbar {
+  background-color: #f1f4f6;
+  height: 60px;
+  margin-bottom: 3em;
+}
+
+.nav-logo {
+  width: 40px;
+  margin-right: 10px;
+  /*display: inline;*/
+}
+
+.seats-logo {
+  width: 120px;
+  margin-left: 65px;
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .seats-logo {
+    width: 100px;
+    margin-left: 0;
+  }
+  .tre-logo {
+    width: 100px;
+  }
+  .svg-waves {
+    background-image: url('../img/layered-waves-haikei.svg');
+  }
+  .card-info {
+    width: 100%;
+    .card-info-text {
+      margin-top: 10px;
+    }
+  }
+  .error-gif {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 90em) {
+  .svg-waves {
+    width: 140%;
+    background-size: cover;
+    padding: 0; /* reset */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 0;
+  }
+}
