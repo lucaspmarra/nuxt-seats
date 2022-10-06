@@ -41,13 +41,6 @@
             >Chamada Zoom de quarta-feira</a
           >
         </p>
-        <!-- <p>
-          Quinta às 19h Link:
-          <a
-            href="https://us02web.zoom.us/j/88400272093?pwd=NFh1L0k5TUxveUNmMFpHWVFMV3lJZz09"
-            >Chamada Zoom de quinta-feira</a
-          >
-        </p> -->
       </section>
     </b-card-text>
 
