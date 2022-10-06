@@ -2,6 +2,7 @@
 <template>
   <div>
     <Navbar />
+    <Libras />
     <Nuxt />
     <div class="svg-waves">
       <svg

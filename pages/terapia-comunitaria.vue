@@ -32,9 +32,9 @@
       <section class="pt2">
         <h4>Cronograma</h4>
         <p>
-          Agenda ABRATECOM Setembro:
+          Agenda ABRATECOM Outubro:
           <a
-            href="AGENDA SETEMBRO22 TCI ON-LINE ABRATECOM APSBRA MS.pdf"
+            href="AGENDA OUTUBRO22 TCI ON-LINE ABRATECOM APSBRA MS.pdf"
             >Calendario Rondas Regulares de Terapia Comunitaria Integrativa
             [PDF]</a
           >

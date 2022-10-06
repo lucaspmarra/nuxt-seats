@@ -12,6 +12,23 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    __dangerouslyDisableSanitizers: ['script'],
+    script: [
+      {
+        hid: 'libras-1',
+        src: 'https://vlibras.gov.br/app/vlibras-plugin.js',
+        body: true,
+      },
+      {
+        hid: 'libras-2',
+        innerHTML: `
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+`,
+        type: 'text/javascript',
+        charset: 'utf-8',
+        body: true,
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

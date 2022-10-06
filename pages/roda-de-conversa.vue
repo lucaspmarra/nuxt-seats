@@ -37,17 +37,17 @@
         <p>
           Quarta às 16h pelo link:
           <a
-            href="https://us02web.zoom.us/j/81171402470?pwd=SnNpYVJyV3lQRW92WjI0U2c2ZzZJQT09"
+            href="https://us02web.zoom.us/j/84695455700?pwd=UHg3eWgxeWYrZUpCQkJ5Q2F3K095dz09"
             >Chamada Zoom de quarta-feira</a
           >
         </p>
-        <p>
+        <!-- <p>
           Quinta às 19h Link:
           <a
             href="https://us02web.zoom.us/j/88400272093?pwd=NFh1L0k5TUxveUNmMFpHWVFMV3lJZz09"
             >Chamada Zoom de quinta-feira</a
           >
-        </p>
+        </p> -->
       </section>
     </b-card-text>
 
