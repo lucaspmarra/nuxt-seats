@@ -36,7 +36,7 @@
             9h:
             <a href="https://us02web.zoom.us/j/2295469290">Chamada Zoom</a>
           </p>
-          <p>ID da reunião: 229 546 9290 <br />Senha de acesso: em</p>
+          <p>ID da reunião: 229 546 9290 <br />Senha de acesso: eu</p>
         </div>
         <hr />
         <div class="pt-2">
