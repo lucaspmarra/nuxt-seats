@@ -1,5 +1,36 @@
 # nuxt-seats
 
+## Documentação para instalação e manutenção do projeto
+
+- Necessário ter Node.Js, NPM (vem instalado com o Node.js) e YARN instalados no computador.
+- Node.js: <https://nodejs.org/en/download/>
+- YARN: <https://yarnpkg.com/> que pode ser instalado com o comando:
+  - `npm install -g yarn`
+
+### Habilitar execução de scripts (executar como adm no powershell)
+
+- `Get-ExecutionPolicy`
+  - provavelmente vai estar como `"restrict"`
+- `Set-ExecutionPolicy RemoteSigned`
+
+#### Necessário configurar o proxy no NPM e no YARN (!!)
+
+- Para configurar no NPM:
+
+  - `npm config set proxy http://username:password@host:port`
+  - `npm config set https-proxy http://username:password@host:port`
+
+- Para configurar no YARN:
+  - `yarn config set proxy http://username:password@host:port`
+  - `yarn config set https-proxy http://username:password@host:port`
+
+#### Instalação das dependências do projeto
+
+- Ao baixar ou clonar o repositório, é necessário instalar os módulos de dependências do Node.js.
+- Basta acessar a pasta raiz do projeto e utilizar o comando:
+  `yarn`
+- Feito isso, só aguardar até que tudo seja instalado, essa pasta é excluída do commit por ser muito grande e muitas vezes, ter bastante arquivo desnecessário.
+
 ## Build Setup
 
 ```bash
